@@ -93,13 +93,13 @@
         self.gameOverView.transform = CGAffineTransformMakeScale(1, 1);
         
         // Set medal
-        if(scene.score >= 40){
+        if(scene.score >= 1000){
             self.medalImageView.image = [UIImage imageNamed:@"medal_platinum"];
-        }else if (scene.score >= 30){
+        }else if (scene.score >= 500){
             self.medalImageView.image = [UIImage imageNamed:@"medal_gold"];
-        }else if (scene.score >= 20){
+        }else if (scene.score >= 100){
             self.medalImageView.image = [UIImage imageNamed:@"medal_silver"];
-        }else if (scene.score >= 10){
+        }else if (scene.score >= 50){
             self.medalImageView.image = [UIImage imageNamed:@"medal_bronze"];
         }else{
             self.medalImageView.image = nil;
