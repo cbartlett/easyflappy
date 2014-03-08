@@ -28,8 +28,6 @@
 		82457DBC18B2C3490042CF82 /* bird_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82457DB518B2C3490042CF82 /* bird_2@2x.png */; };
 		82457DBD18B2C3490042CF82 /* bird_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82457DB618B2C3490042CF82 /* bird_3@2x.png */; };
 		82457DBE18B2C3490042CF82 /* floor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82457DB718B2C3490042CF82 /* floor@2x.png */; };
-		82457DBF18B2C3490042CF82 /* pipe_top@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82457DB818B2C3490042CF82 /* pipe_top@2x.png */; };
-		82457DC018B2C3490042CF82 /* pipe_bottom@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82457DB918B2C3490042CF82 /* pipe_bottom@2x.png */; };
 		82B99B4218B1301F0099A4FE /* BirdNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B99B4118B1301F0099A4FE /* BirdNode.m */; };
 		82B99B4618B132B40099A4FE /* Score.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B99B4518B132B40099A4FE /* Score.m */; };
 		82C6A09318A6F53400FEBE9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82C6A09218A6F53400FEBE9B /* Foundation.framework */; };
@@ -68,8 +66,6 @@
 		82457DB518B2C3490042CF82 /* bird_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bird_2@2x.png"; sourceTree = "<group>"; };
 		82457DB618B2C3490042CF82 /* bird_3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bird_3@2x.png"; sourceTree = "<group>"; };
 		82457DB718B2C3490042CF82 /* floor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "floor@2x.png"; sourceTree = "<group>"; };
-		82457DB818B2C3490042CF82 /* pipe_top@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pipe_top@2x.png"; sourceTree = "<group>"; };
-		82457DB918B2C3490042CF82 /* pipe_bottom@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pipe_bottom@2x.png"; sourceTree = "<group>"; };
 		8274FC2818A7E13200FEBCE7 /* Math.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Math.h; sourceTree = "<group>"; };
 		8274FC2918A7E13200FEBCE7 /* Math.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Math.m; sourceTree = "<group>"; };
 		82B99B4018B1301F0099A4FE /* BirdNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BirdNode.h; sourceTree = "<group>"; };
@@ -146,8 +142,6 @@
 				82457DB518B2C3490042CF82 /* bird_2@2x.png */,
 				82457DB618B2C3490042CF82 /* bird_3@2x.png */,
 				82457DB718B2C3490042CF82 /* floor@2x.png */,
-				82457DB818B2C3490042CF82 /* pipe_top@2x.png */,
-				82457DB918B2C3490042CF82 /* pipe_bottom@2x.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -378,14 +372,12 @@
 				821A756818AD618A00B376D5 /* Images.xcassets in Resources */,
 				823C185118B3F1BB00C9BD2F /* game_over@2x.png in Resources */,
 				823C185418B3FBCC00C9BD2F /* back@2x.png in Resources */,
-				82457DC018B2C3490042CF82 /* pipe_bottom@2x.png in Resources */,
 				823C184518B3E57F00C9BD2F /* taptap@2x.png in Resources */,
 				823C184E18B3F1BB00C9BD2F /* medal_gold@2x.png in Resources */,
 				823C185018B3F1BB00C9BD2F /* medal_plate@2x.png in Resources */,
 				82FEEB9418B550BF00AA6C66 /* Main-iPad.storyboard in Resources */,
 				823C185218B3F1BB00C9BD2F /* medal_platinum@2x.png in Resources */,
 				823C184F18B3F1BB00C9BD2F /* medal_bronze@2x.png in Resources */,
-				82457DBF18B2C3490042CF82 /* pipe_top@2x.png in Resources */,
 				82457DBB18B2C3490042CF82 /* bird_1@2x.png in Resources */,
 				823C184618B3E57F00C9BD2F /* get_ready@2x.png in Resources */,
 				576A22CE18B9CB8E001338C0 /* Main.storyboard in Resources */,
