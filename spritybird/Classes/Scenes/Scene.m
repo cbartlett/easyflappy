@@ -163,6 +163,10 @@ static bool wasted = NO;
                 scoreLabel.fontSize = 340;
                 scoreLabel.position = CGPointMake(CGRectGetMidX(self.frame), 120);
             }
+            if(self.score>=100){
+                scoreLabel.fontSize = 200;
+                scoreLabel.position = CGPointMake(CGRectGetMidX(self.frame), 120);
+            }
         }
     }
 
