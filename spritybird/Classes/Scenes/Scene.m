@@ -27,6 +27,7 @@
 }
 
 static bool wasted = NO;
+static bool started = NO;
 
 - (id)initWithSize:(CGSize)size {
     if (self = [super initWithSize:size]) {
@@ -104,8 +105,10 @@ static bool wasted = NO;
 #pragma mark - Interaction 
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+    started = YES;
     
     if(wasted){
+        started = NO;
         [self startGame];
     }else{
         if (!bird.physicsBody) {
@@ -149,7 +152,7 @@ static bool wasted = NO;
 - (void) updateScore:(NSTimeInterval) currentTime
 {
 
-    if (!wasted) {
+    if (started) {
         CFTimeInterval timeSinceLast = currentTime - self.lastUpdateTimeInterval;
         
         if (timeSinceLast > TIME)

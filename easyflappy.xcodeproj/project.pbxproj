@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		576A22CE18B9CB8E001338C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82C6A0A418A6F53400FEBE9B /* Main.storyboard */; };
+		59A8D35F18CB72BA00F983AC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59A8D35E18CB72BA00F983AC /* Images.xcassets */; };
 		821A755618AD616C00B376D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C6A0A218A6F53400FEBE9B /* AppDelegate.m */; };
 		821A755718AD617800B376D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C6A0A818A6F53400FEBE9B /* ViewController.m */; };
 		821A755818AD617800B376D5 /* Scene.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C6A0C818A6FF4200FEBE9B /* Scene.m */; };
@@ -53,6 +54,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		59A8D35E18CB72BA00F983AC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		823C184318B3E57F00C9BD2F /* taptap@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "taptap@2x.png"; sourceTree = "<group>"; };
 		823C184418B3E57F00C9BD2F /* get_ready@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "get_ready@2x.png"; sourceTree = "<group>"; };
 		823C184718B3F1BB00C9BD2F /* medal_silver@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "medal_silver@2x.png"; sourceTree = "<group>"; };
@@ -72,23 +74,23 @@
 		82B99B4118B1301F0099A4FE /* BirdNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BirdNode.m; sourceTree = "<group>"; };
 		82B99B4418B132B40099A4FE /* Score.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Score.h; sourceTree = "<group>"; };
 		82B99B4518B132B40099A4FE /* Score.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Score.m; sourceTree = "<group>"; };
-		82C6A08F18A6F53400FEBE9B /* spritybird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = spritybird.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82C6A08F18A6F53400FEBE9B /* easyflappy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = easyflappy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82C6A09218A6F53400FEBE9B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		82C6A09418A6F53400FEBE9B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		82C6A09618A6F53400FEBE9B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		82C6A09A18A6F53400FEBE9B /* spritybird-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "spritybird-Info.plist"; sourceTree = "<group>"; };
+		82C6A09A18A6F53400FEBE9B /* easyflappy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "easyflappy-Info.plist"; sourceTree = "<group>"; };
 		82C6A09C18A6F53400FEBE9B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		82C6A09E18A6F53400FEBE9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		82C6A0A018A6F53400FEBE9B /* spritybird-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "spritybird-Prefix.pch"; sourceTree = "<group>"; };
+		82C6A0A018A6F53400FEBE9B /* easyflappy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "easyflappy-Prefix.pch"; sourceTree = "<group>"; };
 		82C6A0A118A6F53400FEBE9B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		82C6A0A218A6F53400FEBE9B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		82C6A0A518A6F53400FEBE9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		82C6A0A718A6F53400FEBE9B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		82C6A0A818A6F53400FEBE9B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		82C6A0AA18A6F53400FEBE9B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		82C6A0B018A6F53400FEBE9B /* spritybirdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = spritybirdTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82C6A0B018A6F53400FEBE9B /* easyflappyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = easyflappyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82C6A0B118A6F53400FEBE9B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		82C6A0B918A6F53400FEBE9B /* spritybirdTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "spritybirdTests-Info.plist"; sourceTree = "<group>"; };
+		82C6A0B918A6F53400FEBE9B /* easyflappyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "easyflappyTests-Info.plist"; sourceTree = "<group>"; };
 		82C6A0BB18A6F53400FEBE9B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		82C6A0BD18A6F53400FEBE9B /* spritybirdTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = spritybirdTests.m; sourceTree = "<group>"; };
 		82C6A0C718A6FF4200FEBE9B /* Scene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scene.h; sourceTree = "<group>"; };
@@ -168,8 +170,8 @@
 		82C6A09018A6F53400FEBE9B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				82C6A08F18A6F53400FEBE9B /* spritybird.app */,
-				82C6A0B018A6F53400FEBE9B /* spritybirdTests.xctest */,
+				82C6A08F18A6F53400FEBE9B /* easyflappy.app */,
+				82C6A0B018A6F53400FEBE9B /* easyflappyTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -191,6 +193,7 @@
 			children = (
 				82C6A0D218A790BA00FEBE9B /* Classes */,
 				82C6A0D918A7913200FEBE9B /* Resources */,
+				59A8D35E18CB72BA00F983AC /* Images.xcassets */,
 				82C6A09918A6F53400FEBE9B /* Supporting Files */,
 			);
 			path = spritybird;
@@ -199,10 +202,10 @@
 		82C6A09918A6F53400FEBE9B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				82C6A09A18A6F53400FEBE9B /* spritybird-Info.plist */,
+				82C6A09A18A6F53400FEBE9B /* easyflappy-Info.plist */,
 				82C6A09B18A6F53400FEBE9B /* InfoPlist.strings */,
 				82C6A09E18A6F53400FEBE9B /* main.m */,
-				82C6A0A018A6F53400FEBE9B /* spritybird-Prefix.pch */,
+				82C6A0A018A6F53400FEBE9B /* easyflappy-Prefix.pch */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -220,7 +223,7 @@
 		82C6A0B818A6F53400FEBE9B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				82C6A0B918A6F53400FEBE9B /* spritybirdTests-Info.plist */,
+				82C6A0B918A6F53400FEBE9B /* easyflappyTests-Info.plist */,
 				82C6A0BA18A6F53400FEBE9B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -294,9 +297,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		82C6A08E18A6F53400FEBE9B /* spritybird */ = {
+		82C6A08E18A6F53400FEBE9B /* easyflappy */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 82C6A0C118A6F53400FEBE9B /* Build configuration list for PBXNativeTarget "spritybird" */;
+			buildConfigurationList = 82C6A0C118A6F53400FEBE9B /* Build configuration list for PBXNativeTarget "easyflappy" */;
 			buildPhases = (
 				82C6A08B18A6F53400FEBE9B /* Sources */,
 				82C6A08C18A6F53400FEBE9B /* Frameworks */,
@@ -306,14 +309,14 @@
 			);
 			dependencies = (
 			);
-			name = spritybird;
+			name = easyflappy;
 			productName = spritybird;
-			productReference = 82C6A08F18A6F53400FEBE9B /* spritybird.app */;
+			productReference = 82C6A08F18A6F53400FEBE9B /* easyflappy.app */;
 			productType = "com.apple.product-type.application";
 		};
-		82C6A0AF18A6F53400FEBE9B /* spritybirdTests */ = {
+		82C6A0AF18A6F53400FEBE9B /* easyflappyTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 82C6A0C418A6F53400FEBE9B /* Build configuration list for PBXNativeTarget "spritybirdTests" */;
+			buildConfigurationList = 82C6A0C418A6F53400FEBE9B /* Build configuration list for PBXNativeTarget "easyflappyTests" */;
 			buildPhases = (
 				82C6A0AC18A6F53400FEBE9B /* Sources */,
 				82C6A0AD18A6F53400FEBE9B /* Frameworks */,
@@ -324,9 +327,9 @@
 			dependencies = (
 				82C6A0B618A6F53400FEBE9B /* PBXTargetDependency */,
 			);
-			name = spritybirdTests;
+			name = easyflappyTests;
 			productName = spritybirdTests;
-			productReference = 82C6A0B018A6F53400FEBE9B /* spritybirdTests.xctest */;
+			productReference = 82C6A0B018A6F53400FEBE9B /* easyflappyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -336,14 +339,17 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0500;
-				ORGANIZATIONNAME = "Alexis Creuzot";
+				ORGANIZATIONNAME = "Colin Bartlett, Inc.";
 				TargetAttributes = {
+					82C6A08E18A6F53400FEBE9B = {
+						DevelopmentTeam = XEHYY7MLN2;
+					};
 					82C6A0AF18A6F53400FEBE9B = {
 						TestTargetID = 82C6A08E18A6F53400FEBE9B;
 					};
 				};
 			};
-			buildConfigurationList = 82C6A08A18A6F53400FEBE9B /* Build configuration list for PBXProject "spritybird" */;
+			buildConfigurationList = 82C6A08A18A6F53400FEBE9B /* Build configuration list for PBXProject "easyflappy" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -356,8 +362,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				82C6A08E18A6F53400FEBE9B /* spritybird */,
-				82C6A0AF18A6F53400FEBE9B /* spritybirdTests */,
+				82C6A08E18A6F53400FEBE9B /* easyflappy */,
+				82C6A0AF18A6F53400FEBE9B /* easyflappyTests */,
 			);
 		};
 /* End PBXProject section */
@@ -378,6 +384,7 @@
 				82FEEB9418B550BF00AA6C66 /* Main-iPad.storyboard in Resources */,
 				823C185218B3F1BB00C9BD2F /* medal_platinum@2x.png in Resources */,
 				823C184F18B3F1BB00C9BD2F /* medal_bronze@2x.png in Resources */,
+				59A8D35F18CB72BA00F983AC /* Images.xcassets in Resources */,
 				82457DBB18B2C3490042CF82 /* bird_1@2x.png in Resources */,
 				823C184618B3E57F00C9BD2F /* get_ready@2x.png in Resources */,
 				576A22CE18B9CB8E001338C0 /* Main.storyboard in Resources */,
@@ -425,7 +432,7 @@
 /* Begin PBXTargetDependency section */
 		82C6A0B618A6F53400FEBE9B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 82C6A08E18A6F53400FEBE9B /* spritybird */;
+			target = 82C6A08E18A6F53400FEBE9B /* easyflappy */;
 			targetProxy = 82C6A0B518A6F53400FEBE9B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -537,10 +544,11 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "spritybird/Supporting Files/spritybird-Prefix.pch";
-				INFOPLIST_FILE = "spritybird/Supporting Files/spritybird-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				PRODUCT_NAME = spritybird;
+				GCC_PREFIX_HEADER = "spritybird/Supporting Files/easyflappy-Prefix.pch";
+				INFOPLIST_FILE = "spritybird/Supporting Files/easyflappy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = easyflappy;
+				PROVISIONING_PROFILE = "DAE4645C-DBDE-4798-BA7A-982A40D94C06";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -553,10 +561,11 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "spritybird/Supporting Files/spritybird-Prefix.pch";
-				INFOPLIST_FILE = "spritybird/Supporting Files/spritybird-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				PRODUCT_NAME = spritybird;
+				GCC_PREFIX_HEADER = "spritybird/Supporting Files/easyflappy-Prefix.pch";
+				INFOPLIST_FILE = "spritybird/Supporting Files/easyflappy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = easyflappy;
+				PROVISIONING_PROFILE = "DAE4645C-DBDE-4798-BA7A-982A40D94C06";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -578,8 +587,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "spritybirdTests/spritybirdTests-Info.plist";
-				PRODUCT_NAME = spritybirdTests;
+				INFOPLIST_FILE = "spritybirdTests/easyflappyTests-Info.plist";
+				PRODUCT_NAME = easyflappyTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -597,8 +606,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "spritybird/spritybird-Prefix.pch";
-				INFOPLIST_FILE = "spritybirdTests/spritybirdTests-Info.plist";
-				PRODUCT_NAME = spritybirdTests;
+				INFOPLIST_FILE = "spritybirdTests/easyflappyTests-Info.plist";
+				PRODUCT_NAME = easyflappyTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -607,7 +616,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		82C6A08A18A6F53400FEBE9B /* Build configuration list for PBXProject "spritybird" */ = {
+		82C6A08A18A6F53400FEBE9B /* Build configuration list for PBXProject "easyflappy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				82C6A0BF18A6F53400FEBE9B /* Debug */,
@@ -616,7 +625,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		82C6A0C118A6F53400FEBE9B /* Build configuration list for PBXNativeTarget "spritybird" */ = {
+		82C6A0C118A6F53400FEBE9B /* Build configuration list for PBXNativeTarget "easyflappy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				82C6A0C218A6F53400FEBE9B /* Debug */,
@@ -625,7 +634,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		82C6A0C418A6F53400FEBE9B /* Build configuration list for PBXNativeTarget "spritybirdTests" */ = {
+		82C6A0C418A6F53400FEBE9B /* Build configuration list for PBXNativeTarget "easyflappyTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				82C6A0C518A6F53400FEBE9B /* Debug */,
