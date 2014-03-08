@@ -15,8 +15,14 @@
 
 @interface Scene : SKScene<SKPhysicsContactDelegate>
 
+{
+    NSTimeInterval _dt;
+}
+
 @property (unsafe_unretained,nonatomic) id<SceneDelegate> delegate;
 @property (nonatomic) NSInteger score;
+@property (nonatomic) NSTimeInterval lastUpdateTimeInterval;
+@property (nonatomic) NSTimeInterval lastSpawnTimeInterval;
 
 - (void) startGame;
 
